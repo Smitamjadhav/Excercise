@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.65 s <<< FAILURE! - in TestSuite
+setUp(ExcerciseGroup.ExcerciseArtifactProject.startTest)  Time elapsed: 0.397 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-EPLP61U0', ip: '10.0.0.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: FirefoxDriver
+	at ExcerciseGroup.ExcerciseArtifactProject.startTest.setUp(startTest.java:43)
+

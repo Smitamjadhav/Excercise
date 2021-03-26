@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-26T10:12:02Z" name="GoogleSearchSuite" finished-at="2021-03-26T10:13:09Z" duration-ms="66506">
+    <groups>
+    </groups>
+    <test started-at="2021-03-26T10:12:02Z" name="ChromeGoogleSearch" finished-at="2021-03-26T10:12:19Z" duration-ms="16854">
+      <class name="com.test.SearchWithEnteredTerms">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.SearchWithEnteredTerms@24ba9639]" started-at="2021-03-26T06:12:02Z" name="setUp" finished-at="2021-03-26T06:12:06Z" duration-ms="3711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWithEnteredData()[pri:0, instance:com.test.SearchWithEnteredTerms@24ba9639]" started-at="2021-03-26T06:12:06Z" name="searchWithEnteredData" finished-at="2021-03-26T06:12:14Z" duration-ms="8134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithEnteredData -->
+        <test-method is-config="true" signature="clearSearch()[pri:0, instance:com.test.SearchWithEnteredTerms@24ba9639]" started-at="2021-03-26T06:12:14Z" name="clearSearch" finished-at="2021-03-26T06:12:14Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSearch -->
+        <test-method signature="searchdynamicOptions()[pri:0, instance:com.test.SearchWithEnteredTerms@24ba9639]" started-at="2021-03-26T06:12:14Z" name="searchdynamicOptions" finished-at="2021-03-26T06:12:18Z" duration-ms="4006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchdynamicOptions -->
+        <test-method is-config="true" signature="clearSearch()[pri:0, instance:com.test.SearchWithEnteredTerms@24ba9639]" started-at="2021-03-26T06:12:18Z" name="clearSearch" finished-at="2021-03-26T06:12:19Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.SearchWithEnteredTerms@24ba9639]" started-at="2021-03-26T06:12:19Z" name="tearDown" finished-at="2021-03-26T06:12:19Z" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.SearchWithEnteredTerms -->
+    </test> <!-- ChromeGoogleSearch -->
+    <test started-at="2021-03-26T10:12:19Z" name="EdgeGoogleSearch" finished-at="2021-03-26T10:12:38Z" duration-ms="18174">
+      <class name="com.test.SearchWithEnteredTerms">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.SearchWithEnteredTerms@32a68f4f]" started-at="2021-03-26T06:12:19Z" name="setUp" finished-at="2021-03-26T06:12:25Z" duration-ms="5635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWithEnteredData()[pri:0, instance:com.test.SearchWithEnteredTerms@32a68f4f]" started-at="2021-03-26T06:12:25Z" name="searchWithEnteredData" finished-at="2021-03-26T06:12:33Z" duration-ms="8025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithEnteredData -->
+        <test-method is-config="true" signature="clearSearch()[pri:0, instance:com.test.SearchWithEnteredTerms@32a68f4f]" started-at="2021-03-26T06:12:33Z" name="clearSearch" finished-at="2021-03-26T06:12:33Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSearch -->
+        <test-method signature="searchdynamicOptions()[pri:0, instance:com.test.SearchWithEnteredTerms@32a68f4f]" started-at="2021-03-26T06:12:33Z" name="searchdynamicOptions" finished-at="2021-03-26T06:12:37Z" duration-ms="3588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchdynamicOptions -->
+        <test-method is-config="true" signature="clearSearch()[pri:0, instance:com.test.SearchWithEnteredTerms@32a68f4f]" started-at="2021-03-26T06:12:37Z" name="clearSearch" finished-at="2021-03-26T06:12:37Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.SearchWithEnteredTerms@32a68f4f]" started-at="2021-03-26T06:12:37Z" name="tearDown" finished-at="2021-03-26T06:12:38Z" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.SearchWithEnteredTerms -->
+    </test> <!-- EdgeGoogleSearch -->
+    <test started-at="2021-03-26T10:12:38Z" name="FireFoxGoogleSearch" finished-at="2021-03-26T10:12:51Z" duration-ms="13825">
+      <class name="com.test.SearchWithEnteredTerms">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.SearchWithEnteredTerms@12f9af83]" started-at="2021-03-26T06:12:38Z" name="setUp" finished-at="2021-03-26T06:12:44Z" duration-ms="6554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWithEnteredData()[pri:0, instance:com.test.SearchWithEnteredTerms@12f9af83]" started-at="2021-03-26T06:12:44Z" name="searchWithEnteredData" finished-at="2021-03-26T06:12:48Z" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithEnteredData -->
+        <test-method is-config="true" signature="clearSearch()[pri:0, instance:com.test.SearchWithEnteredTerms@12f9af83]" started-at="2021-03-26T06:12:48Z" name="clearSearch" finished-at="2021-03-26T06:12:48Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSearch -->
+        <test-method signature="searchdynamicOptions()[pri:0, instance:com.test.SearchWithEnteredTerms@12f9af83]" started-at="2021-03-26T06:12:48Z" name="searchdynamicOptions" finished-at="2021-03-26T06:12:50Z" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchdynamicOptions -->
+        <test-method is-config="true" signature="clearSearch()[pri:0, instance:com.test.SearchWithEnteredTerms@12f9af83]" started-at="2021-03-26T06:12:50Z" name="clearSearch" finished-at="2021-03-26T06:12:50Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.SearchWithEnteredTerms@12f9af83]" started-at="2021-03-26T06:12:50Z" name="tearDown" finished-at="2021-03-26T06:12:51Z" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.SearchWithEnteredTerms -->
+    </test> <!-- FireFoxGoogleSearch -->
+    <test started-at="2021-03-26T10:12:51Z" name="SearchWithOutEnteredTerms" finished-at="2021-03-26T10:13:09Z" duration-ms="17576">
+      <class name="com.test.SearchWithOutEnteredTerms">
+        <test-method is-config="true" signature="arquillianBeforeSuite()[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:12:02Z" name="arquillianBeforeSuite" finished-at="2021-03-26T06:12:02Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeSuite -->
+        <test-method is-config="true" signature="arquillianBeforeClass()[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:12:51Z" name="arquillianBeforeClass" finished-at="2021-03-26T06:12:52Z" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:12:52Z" name="setup" finished-at="2021-03-26T06:12:52Z" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="arquillianBeforeTest(java.lang.reflect.Method)[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:12:52Z" name="arquillianBeforeTest" finished-at="2021-03-26T06:12:52Z" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.SearchWithOutEnteredTerms.googleVoiceSearchTest(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianBeforeTest -->
+        <test-method signature="googleVoiceSearchTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:12:52Z" name="googleVoiceSearchTest" data-provider="voiceSearch" finished-at="2021-03-26T06:13:08Z" duration-ms="16058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[openclinica]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleVoiceSearchTest -->
+        <test-method is-config="true" signature="arquillianAfterTest(java.lang.reflect.Method)[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:13:08Z" name="arquillianAfterTest" finished-at="2021-03-26T06:13:08Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.SearchWithOutEnteredTerms.googleVoiceSearchTest(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterTest -->
+        <test-method is-config="true" signature="deallocate()[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:13:08Z" name="deallocate" finished-at="2021-03-26T06:13:09Z" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deallocate -->
+        <test-method is-config="true" signature="arquillianAfterClass()[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:13:09Z" name="arquillianAfterClass" finished-at="2021-03-26T06:13:09Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:13:09Z" name="tearDown" finished-at="2021-03-26T06:13:09Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="arquillianAfterSuite()[pri:0, instance:com.test.SearchWithOutEnteredTerms@74f5ce22]" started-at="2021-03-26T06:13:09Z" name="arquillianAfterSuite" finished-at="2021-03-26T06:13:09Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arquillianAfterSuite -->
+      </class> <!-- com.test.SearchWithOutEnteredTerms -->
+    </test> <!-- SearchWithOutEnteredTerms -->
+  </suite> <!-- GoogleSearchSuite -->
+</testng-results>

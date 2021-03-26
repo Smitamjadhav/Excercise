@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.65" tests="4" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\smita\eclipse-workspace\Exercise\ExcerciseArtifactProject\target\test-classes;C:\Users\smita\eclipse-workspace\Exercise\ExcerciseArtifactProject\target\classes;C:\Users\smita\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\smita\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\smita\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\smita\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\smita\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\smita\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\smita\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\smita\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\smita\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\smita\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\smita\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\smita\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\smita\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\smita\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\smita\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\smita\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\smita\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\smita\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\smita\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\smita\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\smita\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\smita\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\smita\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\smita\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\smita\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\smita\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\smita\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\smita\AppData\Local\Temp\surefire15602754989398206061\surefirebooter8562339515218191119.jar C:\Users\smita\AppData\Local\Temp\surefire15602754989398206061 2021-03-24T17-48-50_053-jvmRun1 surefire13881430100594230277tmp surefire_016068920252109075574tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\smita\eclipse-workspace\Exercise\ExcerciseArtifactProject\target\test-classes;C:\Users\smita\eclipse-workspace\Exercise\ExcerciseArtifactProject\target\classes;C:\Users\smita\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\smita\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\smita\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\smita\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\smita\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\smita\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\smita\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\smita\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\smita\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\smita\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\smita\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\smita\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\smita\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\smita\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\smita\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\smita\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\smita\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\smita\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\smita\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\smita\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\smita\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\smita\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\smita\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\smita\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\smita\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\smita\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\smita\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\smita"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Users\smita\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\smita\eclipse-workspace\Exercise\ExcerciseArtifactProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\smita\AppData\Local\Temp\surefire15602754989398206061\surefirebooter8562339515218191119.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="smita"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\smita\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\smita\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\smita\eclipse-workspace\Exercise\ExcerciseArtifactProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\smita\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/smita/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Users/smita/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\apache-maven-3.5.3\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\smita\AppData\Local\Microsoft\WindowsApps;C:\Users\smita\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smita\AppData\Roaming\npm;C:\Users\smita\AppData\Local\Programs\Fiddler;C:\apache-jmeter-5.4\apache-jmeter-5.4\bin;;C:\windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="setUp" classname="ExcerciseGroup.ExcerciseArtifactProject.startTest" time="0.397">
+    <failure message="Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;LAPTOP-EPLP61U0&apos;, ip: &apos;10.0.0.190&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-EPLP61U0', ip: '10.0.0.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: FirefoxDriver
+	at ExcerciseGroup.ExcerciseArtifactProject.startTest.setUp(startTest.java:43)
+</failure>
+    <system-out><![CDATA[C:\Users\smita\eclipse-workspace\Exercise\ExcerciseArtifactProject
+inside browser setting
+]]></system-out>
+  </testcase>
+  <testcase name="searchdynamicOptions" classname="ExcerciseGroup.ExcerciseArtifactProject.startTest" time="0">
+    <skipped message="Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;LAPTOP-EPLP61U0&apos;, ip: &apos;10.0.0.190&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: driver.version: FirefoxDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="ExcerciseGroup.ExcerciseArtifactProject.startTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(ExcerciseGroup.ExcerciseArtifactProject.AppTest)" classname="ExcerciseGroup.ExcerciseArtifactProject.AppTest" time="0"/>
+</testsuite>

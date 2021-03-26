@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [GoogleSearchSuite]" guice-stage="DEVELOPMENT">
+  <test name="SearchWithOutEnteredTerms(failed)">
+    <classes>
+      <class name="com.test.SearchWithOutEnteredTerms">
+        <methods>
+          <include name="arquillianAfterSuite"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="deallocate"/>
+          <include name="arquillianAfterClass"/>
+          <include name="arquillianBeforeClass"/>
+          <include name="arquillianAfterTest"/>
+          <include name="googleVoiceSearchTest" invocation-numbers="0"/>
+          <include name="arquillianBeforeSuite"/>
+          <include name="arquillianBeforeTest"/>
+        </methods>
+      </class> <!-- com.test.SearchWithOutEnteredTerms -->
+    </classes>
+  </test> <!-- SearchWithOutEnteredTerms(failed) -->
+</suite> <!-- Failed suite [GoogleSearchSuite] -->
